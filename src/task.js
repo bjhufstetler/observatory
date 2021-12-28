@@ -1,6 +1,8 @@
 class Task {
-    constructor() {
-
+    constructor(id, start, stop) {
+        this.id = id,
+        this.start = start,
+        this.stop = stop
     }
 };
 
